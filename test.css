@@ -1,0 +1,102 @@
+.wrapper {
+  display: flex;  
+  flex-flow: row wrap;
+}
+
+.wrapper > * {
+  padding: 20px;
+  flex: 1 100%;
+}
+
+body {
+  padding: 2em; 
+  font-family: Montserrat;
+  font-size: 14;
+  margin:0 auto;
+}
+
+.header {
+  background: rgb(52, 51, 50);
+  font-size: 16;
+  color:white;
+}
+
+.footer {
+  border-top:solid black 1px;
+  margin-top: 20px;
+}
+
+.main {
+  text-align: left;
+}
+
+.aside-1 {
+  border-top:solid black 1px;
+  margin-top: 20px;
+}
+
+
+@media all and (min-width: 600px) {
+  .aside { flex: 1 auto; }
+}
+
+@media all and (min-width: 800px) {
+  .main    { flex: 3 0px; }
+  .aside-1 { order: 1; } 
+  .main    { order: 2; }
+  .footer  { order: 3; }
+}
+
+#map {
+        position: relative;
+        width: 100%;
+        height:100%;
+      }
+      #mapholder {
+        padding-top:200;
+        width: 1000px;
+        height:600;
+        margin:0 auto;
+      }
+      
+      .marker {
+  background: url('https://icons.simplesvg.com/maki-marker-11.svg?color=white') no-repeat center center / contain;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+img {
+        width:200;
+        height:190;
+        padding-left:20;
+      }
+      
+video {
+        width:200; 
+        padding-left:20;
+      } 
+      
+a{
+  color:black;
+}
+
+a:visited{
+  text-decoration:none;
+  color:black;
+} 
+a:hover{
+  text-decoration:underline;
+  color:black;
+} 
+      
+.mapboxgl-popup {
+  max-width: 500px;
+}
+
+.mapboxgl-popup-content {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
