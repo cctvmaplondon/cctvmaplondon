@@ -29,18 +29,14 @@
   
   
   <script>
-
 mapboxgl.accessToken = 'pk.eyJ1IjoibGttYXAiLCJhIjoiY2plYWJ2ZDdpMDBrcTJ3cWhmeHJ1aGpjMyJ9.J4vdBRHu_bMYfyIsNn07yw';
-
 var map = new mapboxgl.Map({
   container: 'map',
   style: 'mapbox://styles/lkmap/cjeac4svy2jhk2rqf6llfah25',
   center: [-0.126529, 51.505838],
   zoom: 12.36
 });
-
 // points
-
 var geojson = {
   
   type: 'FeatureCollection',
@@ -71,7 +67,6 @@ var geojson = {
       url:'images/Euston-Rd_Grays-Inn-Rd.jpg'
     }
   },
-
 {
     type: 'Feature',
     geometry: {
@@ -166,7 +161,7 @@ var geojson = {
       title: 'Kings X Rd/Wharton St',
       feed: '<a href=https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07590.mp4>View the video stream for Kings X Rd/Wharton St camera</a>',
       description: 'https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07590.mp4',
-      url:'images/Kings X Rd:Wharton St.png'
+      url:'images/Kings-X-Rd_Wharton-St.jpg'
     }
   },
   
@@ -180,7 +175,7 @@ var geojson = {
       title: 'Upper Woburn Place - Woburn Walk',
       feed: '<a href=https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07359.mp4>View the video stream for Upper Woburn Place - Woburn Walk camera</a>',
       description: 'https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07359.mp4',
-      url:'images/Upper Woburn Place - Woburn Walk.png'
+      url:'images/Upper-Woburn-Place---Woburn-Walk.jpg'
     }
   },
   
@@ -194,7 +189,7 @@ var geojson = {
       title: 'A501 East of Melton St',
       feed: '<a href=https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07360.mp4>View the video stream for A501 East of Melton St camera</a>',
       description: 'https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07360.mp4',
-      url:'images/A501 East of Melton St.png'
+      url:'images/A501-East-of-Melton-St.jpg'
     }
   },
   
@@ -208,7 +203,7 @@ var geojson = {
       title: 'A4200 Woodburn Pl/Russle Sq',
       feed: '<a href=https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07382.mp4>View the video stream for A4200 Woodburn Pl/Russle Sq camera</a>',
       description: 'https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07382.mp4',
-      url:'images/A4200 Woodburn Pl:Russle Sq.png'
+      url:'images/A4200-Woodburn-Pl_Russle-Sq.jpg'
     }
   },
   
@@ -222,7 +217,7 @@ var geojson = {
       title: 'University St/Gower St',
       feed: '<a href=https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07389.mp4>View the video stream for University St/Gower St camera</a>',
       description: 'https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07389.mp4',
-      url:'images/University St:Gower St.png'
+      url:'images/University-St_Gower-St.jpg'
     }
   },
   
@@ -236,7 +231,7 @@ var geojson = {
       title: 'Tottenham Court Rd/Grafton Way',
       feed: '<a href=https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07390.mp4>View the video stream for Tottenham Court Rd/Grafton Way camera</a>',
       description: 'https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07390.mp4',
-      url:'images/Tottenham Court Rd:Grafton Way.png'
+      url:'images/Tottenham-Court-Rd_Grafton-Way.jpg'
     }
   },
   
@@ -250,7 +245,7 @@ var geojson = {
       title: 'Euston Rd/Tottenham Court Rd',
       feed: '<a href=https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07361.mp4>View the video stream for Euston Rd/Tottenham Court Rd camera</a>',
       description: 'https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07361.mp4',
-      url:'images/Euston Rd:Tottenham Court Rd.png'
+      url:'images/Euston-Rd_Tottenham-Court-Rd.jpg'
     }
   },
   
@@ -264,7 +259,7 @@ var geojson = {
       title: 'Euston Rd/Conway St',
       feed: '<a href=https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07387.mp4>View the video stream for Euston Rd/Conway St camera</a>',
       description: 'https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07387.mp4',
-      url:'images/Euston Rd:Conway St.png'
+      url:'images/Euston-Rd_Conway-St.jpg'
     }
   },
   
@@ -278,7 +273,7 @@ var geojson = {
       title: 'H. Stead Rd/Drummond St',
       feed: '<a href=https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07552.mp4>View the video stream for H. Stead Rd/Drummond St camera</a>',
       description: 'https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07552.mp4',
-      url:'images/H. Stead Rd:Drummond St.png'
+      url:'images/H.-Stead-Rd_Drummond-St.jpg'
     }
   },
   
@@ -292,7 +287,7 @@ var geojson = {
       title: 'H. Stead Rd/Cardington St',
       feed: '<a href=https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07553.mp4>View the video stream for H. Stead Rd/Cardington St camera</a>',
       description: 'https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07553.mp4',
-      url:'images/H. Stead Rd:Cardington St.png'
+      url:'images/H.-Stead-Rd_Cardington-St.jpg'
     }
   },
   
@@ -306,7 +301,7 @@ var geojson = {
       title: 'Marylebone Rd/Osnaburgh St',
       feed: '<a href=https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07364.mp4>View the video stream for Marylebone Rd/Osnaburgh St camera</a>',
       description: 'https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07364.mp4',
-      url:'images/Marylebone Rd:Osnaburgh St.png'
+      url:'images/Marylebone-Rd_Osnaburgh-St.jpg'
     }
   },
   
@@ -320,26 +315,17 @@ var geojson = {
       title: 'Marylebone Rd/Great Portland Street',
       feed: '<a href=https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07391.mp4>View the video stream for Marylebone Rd/Great Portland Street camera</a>',
       description: 'https://s3-eu-west-1.amazonaws.com/jamcams.tfl.gov.uk/00001.07391.mp4',
-      url:'images/Marylebone Rd:Great Portland Street.png'
+      url:'images/Marylebone-Rd_Great-Portland-Street.jpg'
     }
   }
   
   ]
 };
-
-
-
-
-
-
-
 // add markers to map
 geojson.features.forEach(function(marker) {
-
   // create a HTML element for each feature
   var el = document.createElement('div');
   el.className = 'marker';
-
   // make a marker for each feature and add to the map
   new mapboxgl.Marker(el)
   .setLngLat(marker.geometry.coordinates)
@@ -347,8 +333,5 @@ geojson.features.forEach(function(marker) {
   .setHTML('<h3>' + marker.properties.title + '</h3> <p>' + marker.properties.feed + '</p><video src=' + marker.properties.description + '></video> <img src=' + marker.properties.url + '>'))
   .addTo(map);
 });
-
-
-
 </script>
 </div>
