@@ -44,7 +44,7 @@ body {
 @media all and (min-width: 800px) {
   .main    { flex: 3 0px; }
   .aside-1 { order: 1;
-  max-width:300px;} 
+  max-width:305px;} 
   .main    { order: 2; }
   .footer  { order: 3; }
 }
